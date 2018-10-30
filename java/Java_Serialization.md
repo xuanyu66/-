@@ -148,6 +148,7 @@ Kryo | 速度快，序列化后体积小 | 跨语言支持较复杂
 Protostuff |速度快，速度略优于Kryo，基于protobuf |需静态编译
 Protostuff-Runtime | 无需静态编译，但序列化前需预先传入schema | 不支持无默认构造函数的类，反序列化时需用户自己初始化序列化后的对象，其只负责将该对象进行赋值
 Java|使用方便，可序列化所有类 |速度慢，占空间
+Hessian|默认支持跨语言|较慢
     序列化框架性能对比：https://blog.csdn.net/robinjwong/article/details/44857133
 
 
